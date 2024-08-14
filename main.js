@@ -12,5 +12,5 @@ const handleSubmit = (event) => {
   if (isNaN(fresnel)) {
       fresnel = 0;
   }
-  result.textContent = "El radio de la zona de Fresnel es de " + trunc(fresnel, 2) + " metros.";
+  result.textContent = "El radio de la zona de Fresnel es de " + fresnel + " metros.";
 }
